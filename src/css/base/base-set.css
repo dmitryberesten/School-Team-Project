@@ -1,7 +1,23 @@
-ul {
+body{ 
+  background: rgb(229, 229, 229);
+  font-family: "Roboto", sans-serif;
+}
+ul, ol{
+  list-style: none;
+}
+a{ 
+  text-decoration: none;
+  color: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, span, strong, big, a, ul, ol, li{ 
   margin: 0;
   padding: 0;
 }
-
-
-/* testing-commit  */
+.flex{ 
+  display: flex;
+}
+.container{ 
+  width: 1415px;
+  margin: 0 auto;
+  outline: 1px solid black;
+}

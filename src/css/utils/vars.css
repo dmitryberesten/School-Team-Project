@@ -1,12 +1,51 @@
 /* Variables */
 :root {
-  --white: #ffffff;
-  --black: #000000;
-  --accent-color: #f3c653;
-  --main-text-color: #5f5f5f;
+
+    /* Was here befor me  */
+    --white: #ffffff;
+    --black: #000000;
+    --uncorrect-accent-color: #f3c653;
+    --uncorrect-main-text-color: #5f5f5f;
+    /* "uncorrect" have been added by me */
+    /* =========================== */
+
+
+    /* Colors  */
+    --white-text-color: rgb(255, 255, 255); 
+    --black-text-color: rgb(20, 21, 22); 
+    --accent-color: rgb(136, 60, 218);
+    --dis-button-color: rgb(203, 155, 255); 
+    --input-text-color: rgb(165, 165, 169); 
+
+
+    /* Colors for cards  */
+    --tomato-color-for-card: rgb(251, 124, 132);
+    --light-orange-color-for-card: rgb(255, 184, 101); 
+    --lemon-color-for-card: rgb(212, 238, 71); 
+    --light-green-color-for-card: rgb(110, 214, 164); 
+    --purpule-color-for-card: rgb(136, 60, 218); 
+    --light-blue-color-for-card: rgb(90, 196, 255); 
+
+
+    /* Backgounds  */
+    --black-bg-color: rgb(20, 21, 22); 
+    --bg-color: rgb(255, 255, 255); 
+
+
+    /* Shadow  */
+    --the-most-useful-shadow: -8px 10px 23px 0px rgb(241, 241, 241),8px -10px 23px 0px rgb(241, 241, 241);
+
+
+    /* Fonts  */
+    --impact: "Impact", sans-serif; 
+    --roboto: "Roboto", sans-serif; 
+
+
+    /* Weights for fonts */
+    --light: 400; 
+    --medium: 500; 
+    --bold: 700; 
 }
 
-/* Usage */
-body {
-  font-family: 'Courier New', Courier, monospace;
-}
+
+/* By Max1mkasss  */
