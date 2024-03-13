@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fonts - Mariia -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>School</title>
-  <link rel="stylesheet" href="./css/style.css" />
-</head>
+  </head>
 
-<body>
-  <include src="./partials/header.html"></include>
-  <main>
+  <body>
+    <include src="./partials/header.html"></include>
+    <main>
+      <include src="./partials/main-page/section-hero.html"></include>
+      <include src="./partials/main-page/section-metrics.html"></include>
+      <include src="./partials/main-page/section-education.html"></include>
+      <include
+        src="./partials/main-page/section-helping-children.html"
+      ></include>
+      <include src="./partials/main-page/section-price.html"></include>
+      <include
+        src="./partials/components/section-consultation-form.html"
+      ></include>
+      <include src="./partials//main-page/section-why-us.html"></include>
+    </main>
 
-    <include src="./partials/main-page/section-hero.html"></include>
-    <include src="./partials/main-page/section-metrics.html"></include>
-    <include src="./partials/main-page/section-education.html"></include>
-    <include src="./partials/main-page/section-helping-children.html"></include>
-    <include src="./partials/main-page/section-price.html"></include>
-    <include src="./partials/components/section-consultation-form.html"></include>
-    <include src="./partials//main-page/section-why-us.html"></include>
-
-  </main>
-
-  <include src="./partials/footer.html"></include>
-
-</body>
-
+    <include src="./partials/footer.html"></include>
+  </body>
 </html>
