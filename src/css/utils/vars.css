@@ -1,7 +1,7 @@
 /* Variables */
 :root {
 
-    /* Was here befor me  */
+    /* Was here before me  */
     --white: #ffff;
     --black: #000000;
     --uncorrect-accent-color: #f3c653;
@@ -60,6 +60,7 @@
     --light: 400; 
     --medium: 500; 
     --bold: 700; 
+    --bolder: 900; 
 }
 
 
