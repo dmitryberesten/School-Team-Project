@@ -248,3 +248,15 @@
 .left {
     margin-right: 200px;
 }
+.modal{ 
+    margin: 0;
+    padding: 0;
+    color: var(--accent-color); 
+    font-family: var(--roboto);
+    font-size: 20px;
+    font-weight: var(--light);
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
