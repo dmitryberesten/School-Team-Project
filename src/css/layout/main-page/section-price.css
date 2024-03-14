@@ -1,1 +1,10 @@
-/* section-price */
+@import url(/src/css/utils/vars.css);
+.price-item{
+    /* background-color: var(--white); */
+    height: 413px;
+    width: 338px;
+    /* box-shadow: 10px 10px 8px 2px ; */
+}
+.price-list-flex{
+    
+}
