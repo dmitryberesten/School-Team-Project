@@ -1,4 +1,4 @@
-/* @import url(/src/css/utils/vars.css); */
+@import url(/src/css/utils/vars.css);
 
 .name_school_metrics {
   color: var(--black-text-color);
@@ -16,6 +16,81 @@
   line-height: 19px;
   margin-top: 24px;
 }
-.img_children_metrics{
+
+.img_children_metrics {
   margin-top: 35px;
+  margin-bottom: -4px;
+}
+
+.list_icon_metrics {
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-left: 779px;
+  margin-top: -548px;
+  padding: 0;
+}
+
+#card_1 {
+  background-color: var(--tomato-color-for-card);
+  border-radius: 35px;
+  width: 196px;
+  height: 262px;
+}
+
+#card_2 {
+  background-color: var(--light-orange-color-for-card);
+  border-radius: 35px;
+  width: 196px;
+  height: 262px;
+}
+
+#card_3 {
+  background-color: var(--lemon-color-for-card);
+  border-radius: 35px;
+  width: 196px;
+  height: 262px;
+}
+
+#card_4 {
+  background-color: var(--light-green-color-for-card);
+  border-radius: 35px;
+  width: 196px;
+  height: 262px;
+}
+
+#card_5 {
+  background-color: var(--purpule-color-for-card);
+  border-radius: 35px;
+  width: 196px;
+  height: 262px;
+}
+
+#card_6 {
+  background-color: var(--light-blue-color-for-card);
+  border-radius: 35px;
+  width: 196px;
+  height: 262px;
+}
+
+.icon_metrics_img {
+  margin: 39px 81px 0px 80px;
+}
+
+.item_icon_metrics_h2 {
+  color: var(--white-text-color);
+  font-family: var(--impact);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 59px;
+  margin-top: 29px;
+  text-align: center;
+}
+
+.item_icon_metrics_paragraph {
+  color: var(--white-text-color);
+  font-family: var(--roboto);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
 }
