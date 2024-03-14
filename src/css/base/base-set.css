@@ -1,5 +1,5 @@
 body{ 
-  background: rgb(229, 229, 229);
+  background: var(--bg-color);
   font-family: "Roboto", sans-serif;
 }
 ul, ol{
