@@ -1,1 +1,21 @@
-/* стилізація */
+@import url(/src/css/utils/vars.css);
+
+.name_school_metrics {
+  color: var(--black-text-color);
+  font-family: var(--impact);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 59px;
+}
+
+.paragraph_school_metrics {
+  color: var(--black-text-color);
+  font-family: var(--roboto);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-top: 24px;
+}
+.img_children_metrics{
+  margin-top: 35px;
+}
