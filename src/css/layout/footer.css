@@ -1,17 +1,19 @@
 @import url(/src/css/utils/vars.css);
 
-.footer{ 
+.footer {
     padding-top: 88px;
-    background-color: var(--black-bg-color); 
-    /* margin-top: 140px; */
+    background-color: var(--black-bg-color);
     margin-top: 500px;
+    /* Removed commented-out line: margin-top: 140px; */
 }
-.footer-wrapper{ 
+
+.footer-wrapper {
     align-items: start;
     flex-direction: row;
     gap: 200px;
 }
-.logotype{
+
+.logotype {
     width: 217px;
     height: 37px;
     background: url(/src/images/svgs/if-srite-doesnt-work/text-logotype.svg);
@@ -19,77 +21,87 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.social-net-list{
+
+.social-net-list {
     margin-top: 50px;
     gap: 17px;
 }
-.social-net-list-item{ 
+
+.social-net-list-item {
     width: 32px;
     height: 32px;
     border-radius: 50%;
     cursor: pointer;
 }
-.social-net-list-item:hover{ 
+
+.social-net-list-item:hover {
     transform: scale(1.3) rotate(360deg);
     transition: 0.7s;
 }
-.social-net-list-item:not(:hover){ 
+
+.social-net-list-item:not(:hover) {
     transition: 0.7s;
 }
-#social-1{ 
+
+.logo-and-form {
+    gap: 478px;
+}
+
+#social-1,
+#social-2,
+#social-3,
+#social-4,
+#social-5,
+#social-6,
+#social-7 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#social-1 {
     background-image: url(/src/images/svgs/if-srite-doesnt-work/instagram.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
-#social-2{ 
+
+#social-2 {
     background-image: url(/src/images/svgs/if-srite-doesnt-work/facebook.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
-#social-3{ 
+
+#social-3 {
     background-image: url(/src/images/svgs/if-srite-doesnt-work/youtube.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
-#social-4{ 
+
+#social-4 {
     background-image: url(/src/images/svgs/if-srite-doesnt-work/x.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;    
 }
-#social-5{ 
+
+#social-5 {
     background-image: url(/src/images/svgs/if-srite-doesnt-work/telegram.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;    
 }
-#social-6{ 
+
+#social-6 {
     background-image: url(/src/images/svgs/if-srite-doesnt-work/watsapp.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;    
 }
-#social-7{ 
+
+#social-7 {
     background-image: url(/src/images/svgs/if-srite-doesnt-work/google-plus.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;   
 }
-.tell-us-list{ 
+
+
+.tell-us-list {
     margin-top: 114px;
     flex-direction: column;
     gap: 19px;
 }
-.footer-lists{
+
+.footer-lists {
     margin-top: 110px;
     flex-direction: column;
     gap: 19px;
 }
-.tell-us-list-item{ 
-    color:  var(--bgrey);
+
+.tell-us-list-item {
+    color: var(--bgrey);
     font-family: var(--roboto);
     font-size: 18px;
     font-weight: var(--light);
@@ -97,7 +109,8 @@
     letter-spacing: 0%;
     text-align: left;
 }
-.list-name{ 
+
+.list-name {
     color: var(--white-text-color);
     font-family: var(--roboto);
     font-size: 18px;
@@ -108,20 +121,22 @@
     margin-bottom: 40px;
     cursor: default;
 }
-.tell-us-list-item:hover{ 
+
+.tell-us-list-item:hover {
     color: var(--white-text-color);
 }
-#footer-list-2{ 
+
+#footer-list-2 {
     margin-top: 60px;
 }
-#footer-list-2 .list-name{
+
+#footer-list-2 .list-name {
     margin-bottom: 30px;
 }
 
-
 /* ========================FORM========================== */
 /* =================================================== */
-.name-of-subscribe-form{
+.name-of-subscribe-form {
     margin-left: 145px;
     color: var(--white-text-color);
     font-family: var(--roboto);
@@ -131,6 +146,7 @@
     letter-spacing: 0%;
     text-align: left;
 }
+
 .input-group {
     margin-top: 50px;
     margin-left: 138px;
@@ -149,7 +165,7 @@
     border-bottom-left-radius: 35px;
     background-color: transparent;
     padding-left: 20px;
-    margin-right: -65px; 
+    margin-right: -65px;
 }
 
 .button--submit {
@@ -159,7 +175,7 @@
     border: var(--accent-color) 1px solid;
     border-radius: 35px;
     background-color: var(--accent-color);
-    color: var(--white);    
+    color: var(--white);
     font-family: var(--roboto);
     font-size: 18px;
     font-weight: var(--bold);
@@ -169,16 +185,17 @@
     cursor: pointer;
     transition: background-color .3s ease-in-out;
     z-index: 1000;
-    position: relative; 
+    position: relative;
 }
 
 .button--submit:hover {
     background-color: var(--violet);
-    opacity: 1; 
+    opacity: 1;
 }
 
-.input:focus, .input:focus-visible {
-    border-color: var(--violet); 
+.input:focus,
+.input:focus-visible {
+    border-color: var(--violet);
     outline: none;
 }
 
@@ -195,7 +212,6 @@
 .btn:hover {
     box-shadow: inset var(--the-most-useful-shadow) var(--accent-color);
     transform: translateY(-2px) scale(1.1);
-    
 }
 
 .btn:hover .text {
@@ -207,28 +223,20 @@
     transform: scale(1.1);
 }
 
-
-
-/* inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
-    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
-    0px 0px 0px 4px rgba(255, 255, 255, 0.2),
-    0px 0px 180px 0px */
-/* =================================================== */
-
-
-
-.footer-main-list{ 
-    gap: 90px;
+.footer-main-list {
+    gap: 55px;
     align-items: start;
+    flex-wrap: wrap;
 }
 
-.under-list{ 
+.under-list {
     margin-top: 100px;
     padding-top: 28px;
     border-top: 1px solid gray;
     justify-content: space-between;
 }
-.under-list-item{ 
+
+.under-list-item {
     color: var(--white-text-color);
     font-family: var(--roboto);
     font-size: 16px;
@@ -236,4 +244,8 @@
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+.left {
+    margin-right: 200px;
 }
