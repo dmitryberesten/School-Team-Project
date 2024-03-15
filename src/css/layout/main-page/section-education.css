@@ -28,9 +28,9 @@
     background-color: rgba(255, 255, 255, 1);
 }
 
-.items_picture_boy {
+.items_picture_boy{
     /* background: url(/src/images/section-education/boy.jpg); */
-    /* background: url(/src/images/section-education/girl.jpg); */ 
+    background: url(/src/images/section-education/girl.jpg); 
 
 
     /* =============== FIXED ===============   */
