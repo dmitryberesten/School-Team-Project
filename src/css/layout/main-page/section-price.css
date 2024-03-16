@@ -1,10 +1,91 @@
 @import url(/src/css/utils/vars.css);
-.price-item{
-    /* background-color: var(--white); */
-    height: 413px;
-    width: 338px;
-    /* box-shadow: 10px 10px 8px 2px ; */
+.price-item {
+  /* background-color: var(--white); */
+  height: 413px;
+  width: 338px;
+  box-shadow: -8px 10px 23px 0px rgb(241, 241, 241),
+    8px -10px 23px 0px rgb(241, 241, 241);
+  border-radius: 35px;
 }
-.price-list-flex{
-    
+.price-list {
+  display: flex;
+  gap: 90px;
+  margin-top: 117px;
+  margin-left: 123px;
+}
+.price-title {
+  font-family: var(--impact);
+  font-size: 48px;
+}
+.item-title {
+  font-family: var(--impact);
+  font-size: 34px;
+}
+.title-first-placement {
+  padding-top: 150px;
+  text-align: center;
+}
+.title-second-placement {
+  padding-top: 150px;
+  text-align: center;
+}
+.title-third-placement {
+  padding-top: 150px;
+  text-align: center;
+}
+.price-item-title {
+  font-family: var(--roboto);
+  font-size: 18px;
+}
+.price-title-placement {
+  margin-top: 17px;
+  text-align: center;
+}
+.second-price-title-placement {
+  text-align: center;
+  margin-top: 17px;
+}
+.paragraph {
+  font-family: var(--roboto);
+  font-size: 18px;
+  text-align: center;
+  margin-top: 6px;
+}
+.third-price-title-placement {
+  text-align: center;
+  margin-top: 17px;
+}
+.img-item {
+  background: var(--accent-color);
+  width: 166px;
+  height: 166px;
+  border-radius: 150px;
+}
+.second-img-item {
+  background: var(--light-blue-color-for-card);
+  width: 166px;
+  height: 166px;
+  border-radius: 150px;
+}
+.third-img-item {
+  background: var(--tomato-color-for-card);
+  width: 166px;
+  height: 166px;
+  border-radius: 150px;
+}
+.img{
+    padding-left: 59px;
+    padding-top: 55px;
+    position: relative;
+}
+.img-second{
+    padding-left: 50px;
+    padding-top: 52px;
+}
+.img-list{
+    display: flex;
+    gap: 262px;
+    margin-left: 208px;
+    margin-top: 64px;
+    position: absolute;
 }
