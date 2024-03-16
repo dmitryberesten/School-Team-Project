@@ -27,6 +27,7 @@
 .shaded-bx {
   width: 1169px;
   height: 186px;
+  gap: 50px;
 
   display: flex;
   justify-content: flex-start;
@@ -48,6 +49,9 @@
   line-height: 30px;
   letter-spacing: 0%;
   text-align: left;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .reason-desc {
