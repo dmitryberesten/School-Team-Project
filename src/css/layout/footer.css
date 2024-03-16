@@ -1,5 +1,25 @@
 @import url(/src/css/utils/vars.css);
 
+
+/* Animation  */
+/* ====================================== */
+@keyframes pulsation {
+    0% {
+        box-shadow: 0 0 0 0 #05bada66;
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+}
+
+/* ====================================== */
+
+
 .footer {
     padding-top: 88px;
     background-color: var(--black-bg-color);
@@ -168,61 +188,40 @@
     margin-right: -65px;
 }
 
-.button--submit {
-    height: 48px;
-    width: 163px;
-    padding: 16px 32px;
-    border: var(--accent-color) 1px solid;
-    border-radius: 35px;
-    background-color: var(--accent-color);
-    color: var(--white);
-    font-family: var(--roboto);
-    font-size: 18px;
-    font-weight: var(--bold);
-    line-height: 21px;
-    letter-spacing: 0%;
-    text-align: center;
-    cursor: pointer;
-    transition: background-color .3s ease-in-out;
-    z-index: 1000;
-    position: relative;
-}
-
-.button--submit:hover {
-    background-color: var(--violet);
-    opacity: 1;
-}
-
 .input:focus,
 .input:focus-visible {
     border-color: var(--violet);
     outline: none;
 }
 
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    background: var(--black-bg-color);
+.button--submit {
+    height: 48px;
+    width: 163px;
+    border: none;
+    background-image: linear-gradient(30deg, var(--accent-color), var(--light-purple));
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    color: var(--white-text-color);
+    font-family: var(--roboto);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.button--submit:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 1s infinite;
+    animation: pulsation 0.7s infinite;
     cursor: pointer;
-    transition: all 450ms ease-in-out;
 }
 
-.btn:hover {
-    box-shadow: inset var(--the-most-useful-shadow) var(--accent-color);
-    transform: translateY(-2px) scale(1.1);
-}
-
-.btn:hover .text {
-    color: var(--white);
-}
-
-.btn:hover .sparkle {
-    fill: var(--white);
-    transform: scale(1.1);
-}
-
+/* ========================  */
 .footer-main-list {
     gap: 55px;
     align-items: start;
@@ -248,4 +247,16 @@
 
 .left {
     margin-right: 200px;
+}
+.modal{ 
+    margin: 0;
+    padding: 0;
+    color: var(--accent-color); 
+    font-family: var(--roboto);
+    font-size: 20px;
+    font-weight: var(--light);
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
 }

@@ -1,1 +1,56 @@
-/* section-why-us */
+@import url(/src/css/utils/vars.css);
+@import url(/src/css/utils/fonts.css);
+
+.why-us-ttl {
+  color: var(--black-bg-color);
+  font-family: var(--impact);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 59px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  margin-bottom: 56px;
+}
+
+.reasons-list {
+  list-style: none;
+}
+
+.reason {
+  display: flex;
+  gap: 102px;
+
+  margin-bottom: 24px;
+}
+
+.reason-ttl {
+  width: 428px;
+  height: 126px;
+
+  color: var(--black-bg-color);
+  font-family: var(--roboto);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.reason-desc {
+  width: 490px;
+  height: 126px;
+
+  color: var(--black-bg-color);
+  font-family: var(--robotp);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.reason-photo {
+    width: 271px;
+    height: 188px;
+}

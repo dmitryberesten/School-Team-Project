@@ -1,1 +1,30 @@
-/* kirils styles*/
+.education_section {
+    margin-top: 140px;
+}
+
+.succsessful_chidren {
+    font-style: var(--impact);
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
+.quality {
+    font-family: var(--roboto);
+    font-size: 16px;
+    line-height: 144.7%;
+
+}
+
+.info {
+    margin-top: 17px;
+    display: grid;
+    grid-template-columns: 336px 336px 336px 336px;
+    gap: 24px;
+    width: 1416px;
+}
+
+.info li {
+    background-color: rgba(255, 255, 255, 1);
+}
+
