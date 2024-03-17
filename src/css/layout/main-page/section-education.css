@@ -94,7 +94,7 @@
     bottom: 32px;
     outline: solid 1px #883CDA;
     padding: 14px 24px;
-    display: block;
+    display: flex;
     width: 216px;
     border-top-right-radius: 35px;
     border-top-left-radius: 35px;
@@ -105,4 +105,10 @@
     font-weight: var(--bold);
     line-height: 19px;
     font-size: 16px;
+}
+
+.strelka {
+    width: 12px;
+    height: 10px;
+    
 }
