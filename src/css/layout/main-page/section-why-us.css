@@ -19,9 +19,23 @@
 
 .reason {
   display: flex;
-  gap: 102px;
 
   margin-bottom: 24px;
+  padding: 0;
+}
+
+.shaded-bx {
+  width: 1169px;
+  height: 186px;
+  gap: 50px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 30px 109px 30px 40px;
+
+  border-radius: 35px 0px 0px 35px;
+  box-shadow: var(--the-most-useful-shadow);
 }
 
 .reason-ttl {
@@ -35,6 +49,9 @@
   line-height: 30px;
   letter-spacing: 0%;
   text-align: left;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .reason-desc {
@@ -51,6 +68,6 @@
 }
 
 .reason-photo {
-    width: 271px;
-    height: 188px;
+  width: 271px;
+  height: 188px;
 }
