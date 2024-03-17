@@ -22,7 +22,7 @@
 /* Scroll-bar  */
 
 ::-webkit-scrollbar {
-    width: 17px;
+    width: 12px;
 }
 ::-webkit-scrollbar-thumb {
     background-color: var(--accent-color);
