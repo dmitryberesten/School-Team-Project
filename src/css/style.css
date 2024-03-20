@@ -7,10 +7,10 @@
 /* Main Page */
 @import './layout/main-page/section-hero.css';
 @import './layout/main-page/section-metrics.css';
-@import './layout/main-page/section-education.css';
 @import './layout/main-page/section-helping-children.css';
 @import './layout/main-page/section-price.css';
 @import './layout/main-page/section-why-us.css';
+@import './layout/main-page/section-education.css';
 
 /* Components */
 @import './layout/header.css';
