@@ -5,7 +5,8 @@ li {
 
 .section-helping-children {
     display: flex;
-    margin-left: 240px;
+    /* margin-left: 240px; take this out for the formatting to be the same -> Mariia*/ 
+    margin-bottom: 140px; /* added the margin -> Mariia*/
     width: 1681px;
     height: 716px;
     top: 3010px;

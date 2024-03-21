@@ -1,6 +1,10 @@
 @import url(/src/css/utils/vars.css);
 @import url(/src/css/utils/fonts.css);
 
+.why-us {
+  margin-top: 140px;
+}
+
 .why-us-ttl {
   color: var(--black-bg-color);
   font-family: var(--impact);
