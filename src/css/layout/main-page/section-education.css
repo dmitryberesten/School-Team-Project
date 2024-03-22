@@ -51,14 +51,14 @@
 
 
 .items_picture_boy {
-    background: url(/src./images/section-education/girl.jpg);
+    background: url(/src./images/main-page/section-education/girl.jpg);
 }
 
 /* коментария нету */
 
 .items_picture_boy {
     /* background: url(/src/images/section-education/boy.jpg); */
-    background: url(/src/images/section-education/boy.jpg);
+    background: url(/src/images/main-page/section-education/boy.jpg);
     grid-column-start: 4;
     grid-row-start: 1;
     grid-row-end: 3;
@@ -77,7 +77,7 @@
 }
 
 .items-girl {
-    background: url(/src/images/section-education/girl.jpg);
+    background: url(/src/images/main-page/section-education/girl.jpg);
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
