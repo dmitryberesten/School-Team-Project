@@ -1,9 +1,10 @@
 .section-consultation-form{ 
-    margin-top: 140px;
     width: 1920px;
     height: 888px;
     outline: 2px solid red;
     position: relative; 
+    margin: 0 auto;
+    margin-top: 140px;
 }
 .bg-purpule{ 
     margin: 0 auto;
@@ -159,3 +160,13 @@
     scale: 0.7;
   }
   
+.bg-points-red{ 
+    position: absolute;
+    background: url(/src/images/svgs/if-srite-doesnt-work/red-square-points.svg);
+    width: 204px;
+    height: 204px;
+    left: 1686px;
+    right: 30px;
+    top: 652px;
+    bottom: 32px;
+}
