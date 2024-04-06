@@ -1,3 +1,6 @@
+*{ 
+  box-sizing: border-box;
+}
 body{ 
   background: var(--bg-color);
   font-family: "Roboto", sans-serif;
