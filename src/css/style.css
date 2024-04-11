@@ -11,6 +11,7 @@
 @import './layout/main-page/section-price.css';
 @import './layout/main-page/section-why-us.css';
 @import './layout/main-page/section-education.css';
+@import './layout/about-us-page/section-header-about-us.css';
 
 /* about us page */
 @import './layout/about-us-page/section-about-us.css';
