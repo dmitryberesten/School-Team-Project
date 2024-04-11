@@ -12,6 +12,9 @@
 @import './layout/main-page/section-why-us.css';
 @import './layout/main-page/section-education.css';
 
+/* about us page */
+@import './layout/about-us-page/section-about-us.css';
+
 /* Components */
 @import './layout/header.css';
 @import './layout/footer.css';
