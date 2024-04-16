@@ -2,4 +2,21 @@
 @import url(/src/css/utils/fonts.css);
 
 .title-about-us{
+    font-family: var(--impact);
+    font-size: 48px;
+    margin-bottom: 70px;
+}
+.list-about-us{
+    display: flex;
+    gap: 24px;
+}
+.about-us-title{
+    font-family: var(--roboto);
+    font-size: 24px;
+    margin-top: 24px;
+}
+.text-about-us{
+    font-family: var(--roboto);
+    font-size: 16px;
+    margin-top: 8px;
 }
