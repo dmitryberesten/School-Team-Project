@@ -2,3 +2,22 @@
 @import url(/src/css/utils/fonts.css);
 
 /* css code here */
+.title-synergia {
+  color: var(--black);
+  font-family: var(--impact);
+  font-weight: 900;
+  line-height: 59px;
+  font-size: 48px;
+}
+
+.list-synergia {
+  gap: 90px;
+  margin-left: 126px;
+}
+
+.img-synergia {
+  background-color: var(--purpule-color-for-card);
+  border-radius: 50px;
+  width: 166px;
+  height: 166px;
+}
