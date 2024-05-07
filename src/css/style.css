@@ -16,6 +16,7 @@
 
 /* about us page */
 @import './layout/about-us-page/section-about-us.css';
+@import'./layout/about-us-page/section-synergia.css';
 
 /* Components */
 @import './layout/header.css';
