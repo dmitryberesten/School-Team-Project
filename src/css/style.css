@@ -1,10 +1,8 @@
-
 /* Basic */
 @import './utils/fonts.css';
 @import './utils/vars.css';
 @import './base/common.css';
 @import './base/base-set.css';
-
 /* Main Page */
 @import './layout/main-page/section-hero.css';
 @import './layout/main-page/section-metrics.css';
@@ -13,11 +11,9 @@
 @import './layout/main-page/section-why-us.css';
 @import './layout/main-page/section-education.css';
 @import './layout/about-us-page/section-header-about-us.css';
-
 /* about us page */
 @import './layout/about-us-page/section-about-us.css';
 @import'./layout/about-us-page/section-synergia.css';
-
 /* Components */
 @import './layout/header.css';
 @import './layout/footer.css';
