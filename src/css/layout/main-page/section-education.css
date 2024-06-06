@@ -1,0 +1,119 @@
+.education_section {
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.succsessful_chidren {
+    font-style: var(--impact);
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
+.quality {
+    height: 153px;
+    display: block;
+    padding-left: 32px;
+    font-family: var(--roboto);
+    font-weight: var(--light);
+    font-size: 18px;
+    padding-top: 16px;
+    line-height: 27px;
+    color: rgb(20, 21, 22);
+}
+
+.quality-first {
+    font-family: var(--roboto);
+    font-size: 16px;
+    line-height: 144.7%;
+}
+
+.info {
+    margin-top: 17px;
+    display: grid;
+    grid-template-columns: 336px 336px 336px 336px;
+    grid-template-rows: 371px 371px;
+    column-gap: 24px;
+    row-gap: 24px;
+    /* grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2; */
+    width: 1416px;
+}
+
+.info li {
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    /* outline: solid 2px red; */
+    border-radius: 10px;
+    box-shadow: 1px 1px 21px rgb(226, 224, 224);
+}
+
+
+.items_picture_boy {
+    background: url(/src./images/main-page/section-education/girl.jpg);
+}
+
+/* коментария нету */
+
+.items_picture_boy {
+    /* background: url(/src/images/section-education/boy.jpg); */
+    background: url(/src/images/main-page/section-education/boy.jpg);
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+
+    /* =============== FIXED ===============   */
+
+}
+
+.li_header {
+    font-family: var(--roboto);
+    font-weight: var(--bold);
+    font-size: 24px;
+    padding-top: 40px;
+    padding-left: 32px;
+}
+
+.items-girl {
+    background: url(/src/images/main-page/section-education/girl.jpg);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}
+
+.know_more {
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
+    outline: solid 1px #883CDA;
+    padding: 14px 24px;
+    display: flex;
+    width: 216px;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    color: #883CDA;
+    fill: currentColor;
+    font-family: var(--roboto);
+    font-weight: var(--bold);
+    line-height: 19px;
+    font-size: 16px;
+}
+
+
+.strelka {
+    width: 12px;
+    height: 10px;
+    
+}
+
+.strelka_img {
+    padding-left: 20px;
+}
+.know_more:hover .strelka {
+    color: #883cda57;
+    /* fill: #883cda6b; */
+}

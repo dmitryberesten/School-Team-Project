@@ -1,0 +1,67 @@
+/* Variables */
+:root {
+
+    /* Was here before me  */
+    --white: #ffff;
+    --black: #000000;
+    --uncorrect-accent-color: #f3c653;
+    --uncorrect-main-text-color: #5f5f5f;
+    /* "uncorrect" have been added by me */
+    /* =========================== */
+
+    /* Colors  */
+    --white-text-color: rgb(255, 255, 255); /* this is the same as --white */
+    --black-text-color: rgb(20, 21, 22); 
+    --accent-color: rgb(136, 60, 218);
+    --dis-button-color: rgb(203, 155, 255); 
+    --input-text-color: rgb(165, 165, 169); 
+
+    /* Colors for cards  */
+    --tomato-color-for-card: rgb(251, 124, 132);
+    --light-orange-color-for-card: rgb(255, 184, 101); 
+    --lemon-color-for-card: rgb(212, 238, 71); 
+    --light-green-color-for-card: rgb(110, 214, 164); 
+    --purpule-color-for-card: rgb(136, 60, 218); 
+    --light-blue-color-for-card: rgb(90, 196, 255); 
+
+    /* Backgounds  */
+    --black-bg-color: rgb(20, 21, 22); 
+    --bg-color: rgb(255, 255, 255);  
+
+    /* More Colors */
+    --low-op-white: rgba(255, 255, 255, 0.9);
+    --red: rgb(224, 67, 67);
+    --cyan: rgb(180, 228, 255);
+    --blue: rgb(62, 79, 236);
+    --pink: rgb(255, 198, 201);
+    --light-grey: rgb(229, 229, 229);
+    --light-yellow: rgb(245, 255, 192);
+    --almost-white: rgb(248, 248, 248);
+    --light-purple: rgb(204, 157, 255);
+    --light-orange: rgb(255, 232, 206);
+    --light-turquoise: rgb(172, 255, 215);
+    --orange: rgb(255, 122, 0);
+    --lgrey: rgb(209, 209, 209);
+    --deep-red: rgb(209, 33, 33);
+    --violet: rgb(123, 97, 255);
+    --op-black: rgba(20, 21, 22, 0.48);
+    --bgrey: rgb(226, 226, 228);
+    --rgrey: rgb(232, 232, 232);
+    --light-grey: rgb(196, 196, 196);
+
+    /* Shadow  */
+    --the-most-useful-shadow: -8px 10px 23px 0px rgb(241, 241, 241),8px -10px 23px 0px rgb(241, 241, 241);
+
+    /* Fonts  */
+    --impact: "Impact", sans-serif; 
+    --roboto: "Roboto", sans-serif; 
+
+    /* Weights for fonts */
+    --light: 400; 
+    --medium: 500; 
+    --bold: 700; 
+    --bolder: 900; 
+}
+
+
+/* By Max1mkasss Added - Mariia */
